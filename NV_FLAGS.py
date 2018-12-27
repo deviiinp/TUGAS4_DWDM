@@ -1,6 +1,6 @@
 #Getting started with Naive Bayes
 #Install the package
-#install.packages(ìe1071î)
+#install.packages(‚Äúe1071‚Äù)
 #Loading the library
 library(e1071)
 ?naiveBayes
@@ -24,7 +24,7 @@ table(NB_Predictions,Flags_dataset$Indonesia)
  
 #Getting started with Naive Bayes in mlr
 #Install the package
-#install.packages(ìmlrî)
+#install.packages(‚Äúmlr‚Äù)
 #Loading the library
 library(mlr)
  
@@ -42,5 +42,5 @@ NB_mlr$learner.model
 #Predict on the dataset without passing the target feature
 predictions_mlr = as.data.frame(predict(NB_mlr, newdata = Flags_dataset[,1:3]))
  
-##Confusion matrix to check accuracy
+##Confusion matrix to check accuracy 
 table(predictions_mlr[,1],Flags_dataset$Indonesia)<span style="font-family: 'Noto Serif', serif"><span>
