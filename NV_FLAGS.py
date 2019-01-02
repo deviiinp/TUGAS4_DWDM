@@ -44,3 +44,4 @@ predictions_mlr = as.data.frame(predict(NB_mlr, newdata = Flags_dataset[,1:3]))
  
 ##Confusion matrix to check accuracy 
 table(predictions_mlr[,1],Flags_dataset$Indonesia)<span style="font-family: 'Noto Serif', serif"><span>
+
